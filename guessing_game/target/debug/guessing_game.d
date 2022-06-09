@@ -1,1 +1,1 @@
-/mnt/nfs/homes/trponess/Documents/Rust_playground/guessing_game/target/debug/guessing_game: /mnt/nfs/homes/trponess/Documents/Rust_playground/guessing_game/src/main.rs
+/home/javascript-kitty/Documents/coding/Rust_playground/guessing_game/target/debug/guessing_game: /home/javascript-kitty/Documents/coding/Rust_playground/guessing_game/src/main.rs
