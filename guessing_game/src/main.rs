@@ -1,3 +1,14 @@
+macro_rules! str{
+    // macth like arm for macro
+       ($a:expr)=>{
+    // macro expand to this code
+           {
+   // $a and $b will be templated using the value/variable provided to macro
+               String::from($a)
+           }
+       }
+}
+
 #[cfg(test)]
 mod tests {
     use std::{io::Stdout, fs::File, process::Stdio};
@@ -18,8 +29,8 @@ mod tests {
     fn test_1() {
         
         
-     let src = 
-     let dst = ''
+     let src = "";
+     let dst = "";
 
  
         
