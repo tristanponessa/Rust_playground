@@ -1,0 +1,9 @@
+total 32
+drwxrwxr-x 5 javascript-kitty javascript-kitty 4096 Aug 15 17:16 .
+drwxrwxr-x 5 javascript-kitty javascript-kitty 4096 Jun  6 09:05 ..
+-rw-rw-r-- 1 javascript-kitty javascript-kitty 6783 Aug 15 22:28 Cargo.lock
+-rw-rw-r-- 1 javascript-kitty javascript-kitty  234 Aug 15 22:28 Cargo.toml
+drwxrwxr-x 2 javascript-kitty javascript-kitty 4096 Aug 15 15:29 ff
+-rw-rw-r-- 1 javascript-kitty javascript-kitty    0 Aug 16 20:07 f.txt
+drwxrwxr-x 2 javascript-kitty javascript-kitty 4096 Aug 15 17:09 src
+drwxrwxr-x 5 javascript-kitty javascript-kitty 4096 Jun  8 15:38 target
