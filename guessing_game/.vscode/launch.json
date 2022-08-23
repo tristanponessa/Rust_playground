@@ -7,15 +7,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'app'",
+            "name": "Debug executable 'guessing_game'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=app",
-                    "--package=app"
+                    "--bin=guessing_game",
+                    "--package=guessing_game"
                 ],
                 "filter": {
-                    "name": "app",
+                    "name": "guessing_game",
                     "kind": "bin"
                 }
             },
@@ -25,16 +25,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'app'",
+            "name": "Debug unit tests in executable 'guessing_game'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=app",
-                    "--package=app"
+                    "--bin=guessing_game",
+                    "--package=guessing_game"
                 ],
                 "filter": {
-                    "name": "app",
+                    "name": "guessing_game",
                     "kind": "bin"
                 }
             },

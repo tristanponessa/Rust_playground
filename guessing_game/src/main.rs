@@ -9,32 +9,21 @@ macro_rules! str{
        }
 }
 
+
+fn main() {
+    ;
+}
+
 #[cfg(test)]
 mod tests {
+    use super::*;
+    use std::collections::HashMap;
+    use std::hash::Hash;
+    use std::path::{Path, PathBuf};
+    use std::str::LinesAny;
     use std::{io::Stdout, fs::File, process::Stdio};
+    use std::{fs, io};
 
-    fn get_paths() -> std::io::Result<> {
-        //sort from smallest to biggest
-        let mut entries = fs::read_dir(src)?
-        .map(|res| res.map(|e| e.path()))
-        .collect::<Result<Vec<_>, std::io::Error>>()?;
-        entries.sort();
-
-        //seperate  errors  results
-
-        Ok(entries, )
-    }
- 
-    #[test]
-    fn test_1() {
-        
-        
-     let src = "";
-     let dst = "";
-
- 
-        
-        
-    }
+    #test[]
 }
 
