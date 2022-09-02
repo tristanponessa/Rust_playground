@@ -27,7 +27,20 @@
 		"}",
 	 	],
 	 	"description": ""
-	 }
+	 },
+	
+	"rust result let match": {
+	"prefix": "let match",
+	"body": [
+		"let $1 = match $1 {",
+		"\tOk(o) => o,",
+		"\tErr(e) => return Err($3),",
+		"};"
+	],
+	"description": ""
+	}
+	
+	
 
 
 
